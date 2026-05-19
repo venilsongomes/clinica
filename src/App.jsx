@@ -1,18 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
-import LandingPage from './LandingPage'
+import { useState } from "react";
+import Rodape from "./Rodape";
+import Navegacao from "./Componentes/Navegacao";
+import Procedimentos from "./Componentes/Procedimentos";
+import Home from "./Componentes/Home";
+import Sobre from "./Componentes/Sobre";
+import Servicos from "./Componentes/Servicos";
+import Cursos from "./Componentes/Cursos";
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <>
-     <LandingPage />
-    </>
-  )
+    <main className="bg-[#FBF9F6] min-h-screen overflow-x-hidden">
+      <Navegacao />
+      <Home />
+      <Sobre />
+      <Cursos/>
+      <Servicos />
+      <Procedimentos />
+      <Rodape />
+    </main>
+  );
 }
 
-export default App
+export default App;
