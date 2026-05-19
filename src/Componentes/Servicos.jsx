@@ -38,8 +38,8 @@ const Serviços = [
 
 return(
 
-    <section className="text-center p-3 scroll-mt-20" id="services">
-          <h2 className="font-bold text-xl text-gray-800 mt-10 mb-10 ">
+    <section className="text-center p-3 scroll-mt-20 bg-gray-100" id="services">
+          <h2 className="font-bold text-3xl  text-gray-800 mt-10 mb-10 ">
             <p className="text-[#2C1B12]"> Nossos Serviços </p>
           </h2>
 

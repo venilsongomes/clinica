@@ -60,7 +60,7 @@ const resultados = [
           id="results"
         >
           <div className="max-w-6xl mx-auto py-10 px-4">
-            <h2 className="font-bold text-2xl text-gray-800 mb-6">
+            <h2 className="font-bold text-3xl  text-gray-800 mb-6">
               Resultados
             </h2>
 
