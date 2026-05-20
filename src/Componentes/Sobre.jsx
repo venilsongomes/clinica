@@ -5,7 +5,7 @@ import sobre from "../assets/sobre1.svg";
 function  Sobre(){
     return( 
     <section className="text-center  scroll-mt-20 bg-[#E4D6D6] py-24 px-6 md:px-12" id="about">
-          <p className="text-3xl font-bold p-10 text-[#2C1B12]">Quem somos</p>
+          <p className="text-3xl font-bold md:p-10 text-[#2C1B12]">Quem somos</p>
 
          
 
@@ -15,7 +15,7 @@ function  Sobre(){
           <img
               src={sobre}
               alt="Imagem de Clínica de Saúde"
-              className="object-cover w-[70%] fade-in"
+              className="object-cover md:w-[70%] fade-in w-full"
             />
 
             <div className="w-full">

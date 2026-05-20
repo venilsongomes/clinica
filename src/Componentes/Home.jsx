@@ -1,6 +1,7 @@
 import { react, useState } from "react";
 import img4 from "../assets/perfil.svg";
 
+
 function Home() {
     const [count, setCount] = useState(0);
   return (
@@ -19,13 +20,13 @@ function Home() {
         />
         <div className="absolute bottom-[43%] right-[60%]" >  
 
-        <p className=" flex  text-[#2C1B12] font-bold fade-in md:text-5xl">
-         <h1 className="text-3xl text-shadow-lg/20 md:text-7xl"> Samilla  </h1>  <span className="text-gray-400 text-shadow-lg text-4xl md:text-7xl"> Maia</span>
+        <p className=" flex text-[#5C423E] font-bold fade-in md:text-5xl md:justify-center items-center text-4xl">
+         <h1 className=" text-6xl bg-gradient-to-r from-amber-300 via-blue-500 to-rose-600 bg-clip-text text-transparent text-3xl md:text-7xl"> Samilla  </h1>  <span className="text-[#d69c9c] text-shadow-lg text-4xl md:text-7xl"> Maia</span>
         
         </p>
-         <h2 className="text-[#2C1B12] text-2xl font-bold fade-in"> Estetica Avançada</h2>
+         <h2 className="text-[#a24e4e] text-2xl font-bold fade-in"> Estética Avançada</h2>
       
-            <button className=" text-[#2C1B12] text-shadow-2xs text-shadow-sky-300 font-bold py-2 px-4 mt-6 bg-[#D4AF37] hover:bg-[#C19A3F] transition-colors fade-in">
+            <button className=" text-[#5C423E] text-shadow-2xs text-shadow-orange-300 font-bold py-2 px-4 mt-6 bg-[#FAA000] hover:bg-[#C19A3F] transition-colors fade-in">
           Agendar Avaliação
         </button>
         

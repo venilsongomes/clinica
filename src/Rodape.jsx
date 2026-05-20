@@ -7,7 +7,7 @@ function Rodape() {
           className=" flex flex-col items-center justify-center gap-10 scroll-mt-20  text-[#FBF9F6] bg-stone-300 h-auto w-full  "
           id="contact" 
         > 
-        <div className="flex gap-40 flex-col md:flex-row items-center justify-center mt-14 text-[#2C1B12] p-12">   
+        <div className="flex gap-10 md:gap-40 flex-col md:flex-row items-center justify-center  md:mt-14 text-[#2C1B12] p-12">   
 
 
           <div className="flex flex-col items-center text-xl text-[#2C1B12]">
@@ -46,7 +46,7 @@ function Rodape() {
           </div>
           </div>
            
-          <footer className="bg-[#2C1B12] text-[14px] text-[#FBF9F6] w-full h-16 flex items-center justify-center"> &copy; 2026 Samilla Maia. Todos os direitos reservados.</footer>
+          <footer className="bg-[#2C1B12] text-[14px] text-[#FBF9F6] w-full p-4 flex items-center justify-center"> &copy; 2026 Samilla Maia. Todos os direitos reservados.</footer>
          </section>
   );
 }
