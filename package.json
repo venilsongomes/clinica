@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://venilsongomes.github.io/clínica",
+  "homepage": "https://venilsongomes.github.io/clinica",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
