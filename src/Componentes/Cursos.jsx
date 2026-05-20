@@ -11,7 +11,7 @@ function Cursos() {
 ];
 
   return (
-      <section className="text-center md:px-24 py-20 scroll-mt-20" id="services">
+      <section className="text-center italic md:px-24 py-20 scroll-mt-20" id="services">
           <h2 className="font-bold text-3xl  text-gray-800 mt-10 mb-10 ">
             <p className="text-[#2C1B12]"> Cursos </p>
           </h2>

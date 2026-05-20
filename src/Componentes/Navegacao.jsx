@@ -1,64 +1,54 @@
-import React from "react";
-import logo from "../assets/logo.svg";
-import drop from "../assets/drop.svg";
-
+import React, { useState } from 'react';
+import logo from '../assets/logo.svg';
+import drop from '../assets/drop.svg';
 
 function Navegacao() {
+  // Estado para controlar se o menu mobile está aberto
+  const [isOpen, setIsOpen] = useState(false);
+
+  // Função para alternar o estado do menu
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
+    <nav className="fixed z-10 top-0 w-full h-24 bg-white md:bg-black border-b border-black  mb:border-gray-300 text-white flex justify-between items-center  px-4 md:px-8 opacity-100">
+      
+      {/* Logo */}
+      <div className="flex items-center gap-2">
+        <img src={logo} alt="Logo" className="h-50 w-auto hidden md:inline-block" />
+      </div>
 
-     <nav className="fixed z-10 top-0 w-full h-24 md:bg-black border-b border-gray-300 text-white flex justify-between opacity-90">
+      {/* Botão Hambúrguer / Drop (Aparece apenas no Mobile) */}
+      <button onClick={toggleMenu} className="flex items-center gap-2 md:hidden z-20">
+        <img src={drop} alt="Drop" className="h-50 w-10 inline-block" />
+      </button>
 
+      {/* Menu Desktop (Sempre visível em telas grandes) */}
+      <ul className="hidden md:flex p-4 gap-8 items-center italic text-xl">
+        <li><a href="#home" className="hover:text-gray-400">Home</a></li>
+        <li><a href="#about" className="hover:text-gray-400">Sobre</a></li>
+        <li><a href="#services" className="hover:text-gray-400">Tratamentos</a></li>
+        <li><a href="#cursos" className="hover:text-gray-400">Cursos</a></li>
+        <li><a href="#results" className="hover:text-gray-400">Resultados</a></li>
+        <li><a href="#contact" className="hover:text-gray-400">Contatos</a></li>
+      </ul>
 
-                <div className="flex items-center gap-2 hidden md:flex">
-                  <img src={logo} alt="Logo" className="h-40 w-auto" />
-                </div>
-    
-                <div className="flex flex-col  p-4 gap-8  items-center text-xl inline-block relative md:flex-row ">
-                  
-                  <button className="w-[30px] h-[30px]"> <img src={drop} alt="" /></button>
-                <ul className="hidden"> 
-                  <li className="">
-                    <a className="display-block" href="#home">Home</a>
-                  </li>
-                  <li>
-                    <a href="#about">Sobre</a>
-                  </li>
-                  <li>
-                    <a href="#services">Tratamentos</a>
-                  </li>
-                  <li>
-                    <a href="#cursos">Cursos</a>
-                  </li>
-                  <li>
-                    <a href="#results">Resultados</a>
-                  </li>
-                  <li>
-                    <a href="#contact">Contatos</a>
-                  </li>
-                  </ul>
-                </div>
+      {/* Menu Mobile (Aparece apenas quando isOpen for true) */}
+      <ul className={`
+        fixed left-0 top-24 w-full bg-black border-b border-gray-300 flex flex-col p-6 gap-6 italic text-xl transition-all duration-300 ease-in-out md:hidden
+        ${isOpen ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'}
+      `}>
+        <li><a href="#home" onClick={toggleMenu}>Home</a></li>
+        <li><a href="#about" onClick={toggleMenu}>Sobre</a></li>
+        <li><a href="#services" onClick={toggleMenu}>Tratamentos</a></li>
+        <li><a href="#cursos" onClick={toggleMenu}>Cursos</a></li>
+        <li><a href="#results" onClick={toggleMenu}>Resultados</a></li>
+        <li><a href="#contact" onClick={toggleMenu}>Contatos</a></li>
+      </ul>
 
-                <ul className="flex p-4 gap-8 md:items-center items-left text-xl hidden ">
-                  <li>
-                    <a href="#home">Home</a>
-                  </li>
-                  <li>
-                    <a href="#about">Sobre</a>
-                  </li>
-                  <li>
-                    <a href="#services">Tratamentos</a>
-                  </li>
-                  <li>
-                    <a href="#cursos">Cursos</a>
-                  </li>
-                  <li>
-                    <a href="#results">Resultados</a>
-                  </li>
-                  <li>
-                    <a href="#contact">Contatos</a>
-                  </li>
-                </ul>
-            </nav>
+    </nav>
   );
 }
-export default Navegacao
+
+export default Navegacao;

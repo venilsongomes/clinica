@@ -5,7 +5,7 @@ import sobre from "../assets/sobre1.svg";
 function  Sobre(){
     return( 
     <section className="text-center  scroll-mt-20 bg-[#E4D6D6] py-24 px-6 md:px-12" id="about">
-          <p className="text-3xl font-bold md:p-10 text-[#2C1B12]">Quem somos</p>
+          <p className="text-3xl font-bold md:p-10 italic text-[#2C1B12]">Quem somos</p>
 
          
 
@@ -19,7 +19,7 @@ function  Sobre(){
             />
 
             <div className="w-full">
-              <p className="text-justify  fade-in">
+              <p className="text-justify italic fade-in">
                 Prazer, sou Samilla Maia.
                 Minha jornada na estética avançada nasceu de um propósito muito claro: 
                 transformar a autoestima por meio de uma prática integrativa, segura e baseada em evidências científicas. 

@@ -56,7 +56,7 @@ const resultados = [
 
   return(
     <section
-          className="text-center p-3 scroll-mt-20 bg-[#F9F5F2]"
+          className="text-center p-3 scroll-mt-20 bg-[#F9F5F2] italic"
           id="results"
         >
           <div className="max-w-6xl mx-auto py-10 px-4">

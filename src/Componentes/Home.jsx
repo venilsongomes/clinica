@@ -26,7 +26,7 @@ function Home() {
         </p>
          <h2 className="text-[#a24e4e] text-2xl font-bold fade-in"> Estética Avançada</h2>
       
-            <button className=" text-[#5C423E] text-shadow-2xs text-shadow-orange-300 font-bold py-2 px-4 mt-6 bg-[#FAA000] hover:bg-[#C19A3F] transition-colors fade-in">
+            <button className=" text-[#5C423E] text-shadow-2xs text-shadow-orange-300 font-bold py-2 px-4 mt-6 bg-[#FAA000] hover:bg-[#C19A3F] rounded-lg transition-colors hover:bg-[#C19A3F] transform hover:-translate-y-1 hover:scale-105 hover:shadow-xl transition-all duration-200  fade-in">
           Agendar Avaliação
         </button>
         

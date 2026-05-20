@@ -18,19 +18,19 @@ const Serviços = [
       id: 2,
       name: "⚜️ Rejuvenescimento Facial",
       description:
-        "Realize exames laboratoriais com resultados rápidos e precisos.",
+        "Resultados naturais e recuperação rápida.",
       img: proc2,
     },
     {
       id: 3,
-      name: "Vacinação",
+      name: "Tratamento de Melasma",
       description:
-        "Proteja-se com nossas vacinas disponíveis para todas as idades.",
+        "tratamento eficaz para o tratamento do melasma.",
       img: proc3,
     },
     {
       id: 4,
-      name: "Atendimento de Emergência",
+      name: "Preenchimento labial",
       description: "Estamos prontos para atender emergências 24 horas por dia.",
       img: proc4,
     },
@@ -38,7 +38,7 @@ const Serviços = [
 
 return(
 
-    <section className="text-center p-3 scroll-mt-20 bg-gray-100" id="services">
+    <section className="text-center p-3 scroll-mt-20 bg-gray-100 italic" id="services">
           <h2 className="font-bold text-3xl  text-gray-800 mt-10 mb-10 ">
             <p className="text-[#2C1B12]"> Nossos Serviços </p>
           </h2>
