@@ -12,7 +12,7 @@ function Navegacao() {
   };
 
   return (
-    <nav className="fixed font-serif shadow-md z-10 top-0 w-full h-24 bg-[#1C120C] md:bg-[#1A1A1A]  mb:border-gray-300 text-white flex justify-between items-center  px-4 md:px-8">
+    <nav className="fixed font-serif shadow-md z-10 top-0 w-full h-15 md:h-20 bg-[#1C120C] md:bg-[#1A1A1A]  mb:border-gray-300 text-white flex justify-between items-center  px-2 md:px-8">
       
       {/* Logo */}
       <div className="flex items-center gap-2">
@@ -21,7 +21,7 @@ function Navegacao() {
 
       {/* Botão Hambúrguer / Drop (Aparece apenas no Mobile) */}
       <button onClick={toggleMenu} className="flex items-center gap-2 md:hidden z-20">
-        <img src={drop} alt="Drop" className="h-50 w-10 inline-block" />
+        <img src={drop} alt="Drop" className="h-10 w-10 inline-block" />
       </button>
 
       {/* Menu Desktop (Sempre visível em telas grandes) */}
@@ -36,7 +36,7 @@ function Navegacao() {
 
       {/* Menu Mobile (Aparece apenas quando isOpen for true) */}
       <ul className={`
-        fixed left-0 top-24 w-full bg-black border-b border-gray-300 flex flex-col p-6 gap-6 italic text-xl transition-all duration-300 ease-in-out md:hidden
+        fixed left-0 top-20 w-full bg-black border-b border-gray-300 flex flex-col gap-6 italic text-xl transition-all duration-300 ease-in-out md:hidden
         ${isOpen ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'}
       `}>
         <li><a href="#home" onClick={toggleMenu}>Home</a></li>

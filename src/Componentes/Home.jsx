@@ -5,7 +5,7 @@ import sobre from "../assets/sobre1.svg";
 function Home() {
   return (
 
-    <section id="home" className="relative flex items-center justify-center scroll-mt-20 mt-20">
+    <section id="home" className="relative flex items-center justify-center scroll-mt-20 mt-15  mb:mt-20">
      
       <div className="absolute inset-0 bg-black/40"></div>
 
@@ -25,17 +25,8 @@ function Home() {
         >
           Agendar Avaliação
         </a> </button>
-        
-
-
       </div>
-      <img src={sobre} alt="Imagem de Clínica de Saúde" className="w-full object-cover filter brightness-60 contrast-110 fade-in" />
-
-
-        
-         
-         
-     
+      <img src={sobre} alt="Imagem de Clínica de Saúde" className="w-full h-[80vh] md:h-full object-cover filter brightness-60 contrast-110 fade-in" />
     </section>
   );
 }
