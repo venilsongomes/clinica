@@ -12,7 +12,7 @@ function Navegacao() {
   };
 
   return (
-    <nav className="fixed z-10 top-0 w-full h-24 bg-white md:bg-black border-b border-black  mb:border-gray-300 text-white flex justify-between items-center  px-4 md:px-8 opacity-100">
+    <nav className="fixed font-serif shadow-md z-10 top-0 w-full h-24 bg-[#1C120C] md:bg-[#1A1A1A]  mb:border-gray-300 text-white flex justify-between items-center  px-4 md:px-8">
       
       {/* Logo */}
       <div className="flex items-center gap-2">

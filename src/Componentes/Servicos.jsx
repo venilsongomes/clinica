@@ -1,4 +1,4 @@
-import {react, useState} from "react";
+import React from "react";
 import proc1 from "../assets/proc1.svg";
 import proc2 from "../assets/proc2.svg";
 import proc3 from "../assets/proc3.svg";
@@ -54,6 +54,14 @@ return(
                   {serviço.name}
                 </h3>
                 <p className="text-lg">{serviço.description}</p>
+                <a
+                  href="https://wa.me/?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20de%20tratamento."
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="bg-[#FAA000] hover:bg-[#C19A3F] text-[#5C423E] font-bold py-2 px-4 rounded-lg transition-colors mt-4 inline-block"
+                >
+                  Agendar Avaliação
+                </a>
               </li>
             ))}
           </ul>

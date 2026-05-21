@@ -1,39 +1,41 @@
-import { react, useState } from "react";
 import img4 from "../assets/perfil.svg";
+import sobre from "../assets/sobre1.svg";
 
 
 function Home() {
-    const [count, setCount] = useState(0);
   return (
 
-    <section id="home" className=" min-h-[100vh] scroll-mt-20 mt-24 ">
-      <div className="w-full h-[100vh] relative">
-        <div
-          className="w-100% h-[100%] no-repeat fade-in"
-          style={{
-            backgroundImage: `url(${img4})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "90% center",
-            backgroundSize: "60%",
-            backgroundPositionY: "",
-          }}
-        />
-        <div className="absolute bottom-[43%] right-[60%]" >  
+    <section id="home" className="relative flex items-center justify-center scroll-mt-20 mt-20">
+     
+      <div className="absolute inset-0 bg-black/40"></div>
 
-        <p className=" flex text-[#5C423E] font-bold fade-in md:text-5xl md:justify-center items-center text-4xl">
-         <h1 className=" text-6xl bg-gradient-to-r from-amber-300 via-blue-500 to-rose-600 bg-clip-text text-transparent text-3xl md:text-7xl"> Samilla  </h1>  <span className="text-[#d69c9c] text-shadow-lg text-4xl md:text-7xl"> Maia</span>
+      <div className="absolute font-serif inset-0 z-1 flex flex-col items-center justify-center text-center px-4">
+        <div className="flex items-center text-[#5C423E] font-bold fade-in md:text-5xl gap-4 text-4xl">
+          <h1 className="text-4xl font-serif bg-gradient-to-r from-gray-300 via-gray-500 to-white bg-clip-text text-transparent md:text-7xl">Samilla</h1>
+          <span className="bg-clip-text bg-gradient-to-r from-gray-300 via-gray-500 to-white text-transparent md:text-7xl">Maia</span>
+        </div>
+        <h2 className="text-[#E5C158] min-h-[3rem] text-2xl font-bold fade-in mt-4">Estética Avançada</h2>
         
-        </p>
-         <h2 className="text-[#a24e4e] text-2xl font-bold fade-in"> Estética Avançada</h2>
-      
-            <button className=" text-[#5C423E] text-shadow-2xs text-shadow-orange-300 font-bold py-2 px-4 mt-6 bg-[#FAA000] hover:bg-[#C19A3F] rounded-lg transition-colors hover:bg-[#C19A3F] transform hover:-translate-y-1 hover:scale-105 hover:shadow-xl transition-all duration-200  fade-in">
+
+        <button className="bg-orange-800  inline-block  text-[#ffff] text-shadow-2xs text-shadow-orange-300 transparent py-2 px-4 mt-6 border border-[#FAA000] hover:bg-orange-600 rounded-lg transition-colors transform hover:-translate-y-1 hover:scale-105 hover:shadow-xl transition-all duration-200 fade-in"> <a
+          href="https://wa.me/?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20de%20tratamento."
+          target="_blank"
+          rel="noreferrer noopener"
+          className=""
+        >
           Agendar Avaliação
-        </button>
+        </a> </button>
         
-         </div>
-         
-         
+
+
       </div>
+      <img src={sobre} alt="Imagem de Clínica de Saúde" className="w-full object-cover filter brightness-60 contrast-110 fade-in" />
+
+
+        
+         
+         
+     
     </section>
   );
 }

@@ -11,7 +11,7 @@ function Cursos() {
 ];
 
   return (
-      <section className="text-center italic md:px-24 py-20 scroll-mt-20" id="services">
+      <section className="text-center italic md:px-24 py-20 scroll-mt-20" id="cursos">
           <h2 className="font-bold text-3xl  text-gray-800 mt-10 mb-10 ">
             <p className="text-[#2C1B12]"> Cursos </p>
           </h2>
@@ -27,8 +27,21 @@ function Cursos() {
                   {curso.nome}
                 </h3>
                 <p className="text-lg">{curso.descricao}</p>
+                <button className="bg-[#FAA000] hover:bg-[#C19A3F] text-[#5C423E] font-bold py-2 px-2 rounded-lg transition-colors mt-4">
+                  <a
+                  href="https://wa.me/?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20cursos."
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className=" justify-center bg-[#FAA000] hover:bg-[#C19A3F] text-[#5C423E] font-bold p-1 rounded-lg transition-colors inline-block"
+                >
+                  Conheça nossos cursos
+                </a>  
+                </button>
               </li>
+              
             ))}
+
+            
           </ul>
         </section>
   );
