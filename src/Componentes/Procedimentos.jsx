@@ -56,11 +56,11 @@ const resultados = [
 
   return(
     <section
-          className="text-center p-3 scroll-mt-20 bg-[#F9F5F2] italic"
+          className="text-center p-3 scroll-mt-20 bg-[#F9F5F2]"
           id="results"
         >
           <div className="max-w-6xl mx-auto py-10 px-4">
-            <h2 className="font-bold text-3xl  text-gray-800 mb-6">
+            <h2 className="font-serif text-3xl md:text-4xl text-zinc-900 tracking-widefont-bold text-3xl  text-gray-800 mb-6">
               Resultados
             </h2>
 

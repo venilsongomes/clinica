@@ -38,7 +38,7 @@ const Serviços = [
 
 return(
 
-    <section className="text-center p-3 scroll-mt-20 bg-gray-100 italic" id="services">
+    <section className="text-center p-3 scroll-mt-20 bg-gray-100 font-serif" id="services">
           <h2 className="font-bold text-3xl  text-gray-800 mt-10 mb-10 ">
             <p className="text-[#2C1B12]"> Nossos Serviços </p>
           </h2>
@@ -55,7 +55,7 @@ return(
                 </h3>
                 <p className="text-lg">{serviço.description}</p>
                 <a
-                  href="https://wa.me/?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20de%20tratamento."
+                  href="https://wa.me/5538999223255?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20de%20tratamento."
                   target="_blank"
                   rel="noreferrer noopener"
                   className="bg-[#FAA000] hover:bg-[#C19A3F] text-[#5C423E] font-bold py-2 px-4 rounded-lg transition-colors mt-4 inline-block"

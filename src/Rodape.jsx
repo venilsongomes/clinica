@@ -11,7 +11,7 @@ function Rodape() {
 
 
           <div className="flex flex-col items-center text-xl gap-2 ">
-            <h1 className="ext-[#D4AF37] text-sm tracking-[0.2em] uppercase font-semibold flex items-center gap-2"> Endereço </h1> 
+            <h1 className="ext-[#D4AF37] text-sm tracking-[0.2em] uppercase font-semibold flex items-center gap-2 "> Endereço </h1> 
             <h2 className="text-white text-sm font-light max-w-xs "> Rua Exemplo,  123 - Montes Claros </h2>
           </div>
           <div className="flex flex-col items-center text-xl gap-2">
@@ -28,17 +28,17 @@ function Rodape() {
             
               <div>
                 
-                <a href="https://www.instagram.com/studiosamillamaia/" target="_blank" class="text-white hover:text-[#D4AF37] text-2xl transition-transform duration-300 hover:scale-125"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/studiosamillamaia/" target="_blank" class="text-white hover:text-[#D4AF37] text-xl transition-transform duration-300 hover:scale-125"><i class="fab fa-instagram"></i></a>
               </div>
               <div>
                
-                <a href="https://www.facebook.com/samilla.maia.3/" target="_blank" class="text-white hover:text-[#D4AF37] text-2xl transition-transform duration-300 hover:scale-125">
+                <a href="https://www.facebook.com/samilla.maia.3/" target="_blank" class="text-white hover:text-[#D4AF37] text-xl transition-transform duration-300 hover:scale-125">
                   <i className="fab fa-facebook"></i>
                 </a>
               </div>
               <div>
                
-                <a href="https://wa.me/5538999223255" target="_blank" class="text-white hover:text-[#D4AF37] text-2xl transition-transform duration-200 hover:scale-125">
+                <a href="https://wa.me/5538999223255" target="_blank" class="text-white hover:text-[#D4AF37] text-xl transition-transform duration-200 hover:scale-125">
                   <i className="fab fa-whatsapp"></i>
                 </a>
               </div>
@@ -46,7 +46,7 @@ function Rodape() {
           </div>
           </div>
            
-          <footer className="border-t border-gray-700 text-[14px] text-[#FBF9F6] w-full p-4 flex items-center justify-center"> &copy; 2026 Samilla Maia. Todos os direitos reservados.</footer>
+          <footer className="border-t border-gray-700 text-[14px] text-[#FBF9F6] w-full p-5 md:flex flex-col md:flex-row  md:justify-between"> &copy; 2026 Samilla Maia. Todos os direitos reservados.    <span className=" text-blue-400">Desenvolvido por Venilson Rocha</span>  </footer>
          </section>
   );
 }
