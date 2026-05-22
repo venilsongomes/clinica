@@ -29,7 +29,7 @@ function Cursos() {
                 <p className="text-lg">{curso.descricao}</p>
                 <button className="bg-[#FAA000] hover:bg-[#C19A3F] text-[#5C423E] font-bold py-2 px-2 rounded-lg transition-colors mt-4">
                   <a
-                  href="https://wa.me/?phone=5538999223255&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20cursos."
+                  href="https://wa.me/5538999223255&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20cursos."
                   target="_blank"
                   rel="noreferrer noopener"
                   className=" justify-center bg-[#FAA000] hover:bg-[#C19A3F] text-[#5C423E] font-bold p-1 rounded-lg transition-colors inline-block"
