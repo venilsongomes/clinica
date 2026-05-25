@@ -12,14 +12,15 @@ function Rodape() {
 
           <div className="flex flex-col items-center text-xl gap-2 ">
             <h1 className="ext-[#D4AF37] text-sm tracking-[0.2em] uppercase font-semibold flex items-center gap-2 "> Endereço </h1> 
-            <h2 className="text-white text-sm font-light max-w-xs "> Rua Exemplo,  123 - Montes Claros </h2>
+            <h2 className="text-white text-sm font-light max-w-xs "> <i className="fas fa-map-marker-alt"></i> Rua Exemplo,  123 - Montes Claros </h2>
           </div>
           <div className="flex flex-col items-center text-xl gap-2">
             
             <h1 className="ext-[#D4AF37] text-sm tracking-[0.2em] uppercase font-semibold flex items-center gap-2">
                   Atendimento
             </h1>
-            <h2 className="text-white text-sm font-light max-w-xs"> Segunda a Sexta, 8h às 18h</h2>
+
+            <h2 className="text-white text-sm font-light max-w-xs"> <i className="fas fa-clock"></i> Segunda a Sexta, 8h às 18h</h2>
           </div>
 
           <div className="flex flex-col items-center text-xl gap-2">

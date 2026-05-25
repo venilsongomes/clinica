@@ -5,6 +5,10 @@ import proc2 from "../assets/proc2.svg";
 import proc3 from "../assets/proc3.svg";
 import proc4 from "../assets/proc4.svg";
 import proc5 from "../assets/proc5.svg";
+import img1 from "../assets/cica.svg";
+import intimo from "../assets/intimo.svg";
+import img3 from "../assets/frac.svg";
+import img4 from "../assets/Estrias.svg";
 
 function Procedimentos() {
 const resultados = [
@@ -20,28 +24,29 @@ const resultados = [
       title: "Rejuvenescimento Íntimo",
       description:
         "Melhora da autoestima com resultados naturais e recuperação rápida.",
-      img: proc2,
+      img: intimo,
     },
     {
       id: 3,
-      title: "Saúde Preventiva",
+      title: "Cicatrização Avançada",
       description:
-        "Resultados de exames completos entregues com agilidade e precisão.",
-      img: proc3,
+        "Cicatrização avançada com resultados naturais e recuperação rápida.",
+      img: img1,
     },
     {
       id: 4,
-      title: "Atendimento de Emergência",
-      description: "Estamos prontos para atender emergências 24 horas por dia.",
-      img: proc4,
+      title: "Tratamentos para Flacidez",
+      description: "Resultados naturais e recuperação rápida.",
+      img: img3,
     },
     {
       id: 5,
-      title: "Vacinação",
+      title: "Estrias",
       description:
-        "Proteja-se com nossas vacinas disponíveis para todas as idades.",
-      img: proc5,
+        "Resultados naturais e recuperação rápida.",
+      img: img4,
     },
+     
   ];
   const [activeSlide, setActiveSlide] = useState(0);
 

@@ -16,7 +16,8 @@ function Navegacao() {
       
       {/* Logo */}
       <div className="flex items-center gap-2">
-        <img src={logo} alt="Logo" className="h-50 w-auto hidden md:inline-block" />
+        <img src={logo} alt="Logo" href="#home" className="h-50 w-auto hidden md:inline-block" />
+        
       </div>
 
       {/* Botão Hambúrguer / Drop (Aparece apenas no Mobile) */}
@@ -25,26 +26,26 @@ function Navegacao() {
       </button>
 
       {/* Menu Desktop (Sempre visível em telas grandes) */}
-      <ul className="hidden md:flex p-4 gap-8 items-center italic text-xl">
-        <li><a href="#home" className="hover:text-gray-400">Home</a></li>
-        <li><a href="#about" className="hover:text-gray-400">Sobre</a></li>
-        <li><a href="#services" className="hover:text-gray-400">Tratamentos</a></li>
-        <li><a href="#cursos" className="hover:text-gray-400">Cursos</a></li>
-        <li><a href="#results" className="hover:text-gray-400">Resultados</a></li>
-        <li><a href="#contact" className="hover:text-gray-400">Contatos</a></li>
+      <ul className="hidden md:flex p-4 gap-8 items-center italic text-xl ">
+        <li><a href="#home" className="hover:text-[#D4AF37]">Home</a></li>
+        <li><a href="#about" className="hover:text-[#D4AF37]">Sobre</a></li>
+        <li><a href="#cursos" className="hover:text-[#D4AF37]">Cursos</a></li>
+        <li><a href="#services" className="hover:text-[#D4AF37]">Tratamentos</a></li>
+        <li><a href="#results" className="hover:text-[#D4AF37]">Resultados</a></li>
+        <li><a href="#contact" className="hover:text-[#D4AF37]">Contatos</a></li>
       </ul>
 
       {/* Menu Mobile (Aparece apenas quando isOpen for true) */}
       <ul className={`
-        fixed left-0 top-15 w-full bg-[#1A1A1A] border-b flex flex-col gap-3 p-3 italic text-xl transition-all duration-300 ease-in-out md:hidden transparent-100 
+        fixed right-0 top-15 w-full bg-[#1A1A1A] border-b flex flex-col gap-3 p-3 italic text-xl transition-all duration-300 ease-in-out md:hidden transparent-100 
         ${isOpen ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'}
       `}>
-        <li><a href="#home" onClick={toggleMenu}>Home</a></li>
-        <li><a href="#about" onClick={toggleMenu}>Sobre</a></li>
-        <li><a href="#services" onClick={toggleMenu}>Tratamentos</a></li>
-        <li><a href="#cursos" onClick={toggleMenu}>Cursos</a></li>
-        <li><a href="#results" onClick={toggleMenu}>Resultados</a></li>
-        <li><a href="#contact" onClick={toggleMenu}>Contatos</a></li>
+        <li><a href="#home" className="hover:text-[#D4AF37]" onClick={toggleMenu}>Home</a></li>
+        <li><a href="#about" className="hover:text-[#D4AF37]" onClick={toggleMenu}>Sobre</a></li>
+        <li><a href="#cursos" className="hover:text-[#D4AF37]" onClick={toggleMenu}>Cursos</a></li>
+        <li><a href="#services" className="hover:text-[#D4AF37]" onClick={toggleMenu}>Tratamentos</a></li>
+        <li><a href="#results" className="hover:text-[#D4AF37]" onClick={toggleMenu}>Resultados</a></li>
+        <li><a href="#contact" className="hover:text-[#D4AF37]" onClick={toggleMenu}>Contatos</a></li>
       </ul>
 
     </nav>

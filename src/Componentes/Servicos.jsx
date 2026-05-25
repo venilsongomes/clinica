@@ -4,35 +4,45 @@ import proc2 from "../assets/proc2.svg";
 import proc3 from "../assets/proc3.svg";
 import proc4 from "../assets/proc4.svg";
 import proc5 from "../assets/proc5.svg";
+import img1 from "../assets/ax.svg";
+import img2 from "../assets/cica.svg";
+import img3 from "../assets/frac.svg";
+import img4 from "../assets/Estrias.svg";
 
 function Servicos(){
 
 const Serviços = [
     {
       id: 1,
-      name: "⚜️ Rejuvenescimento íntimo integrativo sem injetáveis e não cirúrgico;",
-      description: "Agende uma consulta com nossos médicos especializados.",
+      name: "⚜️ Estetica intima integrativa;",
+      description: "Resultados naturais e recuperação rápida.",
       img: proc1,
     },
     {
       id: 2,
-      name: "⚜️ Rejuvenescimento Facial",
+      name: "⚜️ Tratamentos para Flacidez;",
       description:
         "Resultados naturais e recuperação rápida.",
-      img: proc2,
+      img: img3,
     },
     {
       id: 3,
-      name: "Tratamento de Melasma",
+      name: "⚜️ Terapias Enzimáticas;",
       description:
-        "tratamento eficaz para o tratamento do melasma.",
+        "Tratamentos personalizados para saúde e beleza da pele.",
       img: proc3,
     },
     {
       id: 4,
-      name: "Preenchimento labial",
-      description: "Estamos prontos para atender emergências 24 horas por dia.",
+      name: "⚜️ Rejuvenescimento Facial",
+      description: "Resultados naturais e recuperação rápida.",
       img: proc4,
+    },
+    {
+      id: 5,
+      name: "⚜️ Microagulhamento",
+      description: "As microperfurações estimulam a regeneração da derme e criam canais que facilitam a permeação de ativos",
+      img: proc5,
     },
   ];
 
