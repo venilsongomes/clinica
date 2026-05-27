@@ -5,7 +5,7 @@
 ---
 
 ## 📸 Prévia do Projeto
-
+![Prévia do projeto](src/assets/homeReadmi.png)
 O design do projeto utiliza uma paleta de cores de alto padrão (Preto, Tons Terrosos, Ouro e Off-White) combinando tipografias clássicas serifadas para títulos e elementos *clean* para leitura dinâmica.
 
 * **Seção Hero imponente** com imagem de fundo tratada e otimizada com overlays.
