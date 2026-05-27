@@ -5,8 +5,8 @@ import curso4 from "../assets/intimo.svg";
 
 function Cursos() {
   const cursos = [
-    { id: 1, nome: "LIMPEZA DE PELE PROFUNDA", descricao: "Nesse curso, você aprenderá técnicas avançadas de limpeza de pele.", img: curso4},
-    { id: 2, nome: "CURSO DE REJUVENESCIMENTO ÍNTIMO E CLAREAMENTO", descricao: "Nesse curso, você aprenderá técnicas avançadas de rejuvenescimento íntimo e clareamento.", img: curso2 },
+    { id: 1, nome: "LIMPEZA DE PELE PROFUNDA", descricao: "Nesse curso, você aprenderá técnicas avançadas de limpeza de pele.", img: curso2},
+    { id: 2, nome: "CURSO DE REJUVENESCIMENTO ÍNTIMO E CLAREAMENTO", descricao: "Nesse curso, você aprenderá técnicas avançadas de rejuvenescimento íntimo e clareamento.", img: curso4 },
     { id: 3, nome: "MICROAGULHAMENTO FACIAL", descricao: "Nesse curso, você aprenderá técnicas avançadas de microagulhamento.", img: curso3 },
     { id: 4, nome: "ESTRIAS", descricao: "Nesse curso, você aprenderá técnicas avançadas para o tratamento de estrias.", img: curso1 },
   ];

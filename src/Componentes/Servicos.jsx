@@ -8,6 +8,7 @@ import img1 from "../assets/ax.svg";
 import img2 from "../assets/cica.svg";
 import img3 from "../assets/frac.svg";
 import img4 from "../assets/Estrias.svg";
+import img5 from "../assets/microagulhamento.svg";
 
 function Servicos(){
 
@@ -42,7 +43,7 @@ const Serviços = [
       id: 5,
       name: "⚜️ Microagulhamento",
       description: "As microperfurações estimulam a regeneração da derme e criam canais que facilitam a permeação de ativos",
-      img: proc5,
+      img: img5,
     },
   ];
 
