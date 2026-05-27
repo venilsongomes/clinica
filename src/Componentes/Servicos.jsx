@@ -15,33 +15,33 @@ function Servicos(){
 const Serviços = [
     {
       id: 1,
-      name: "⚜️ Estetica intima integrativa;",
+      name: "⚜️ ESTETICA INTIMA INTEGRATIVA;",
       description: "Resultados naturais e recuperação rápida.",
       img: proc1,
     },
     {
       id: 2,
-      name: "⚜️ Tratamentos para Flacidez;",
+      name: "⚜️ TRATAMENTOS PARA FLACIDEZ;",
       description:
         "Resultados naturais e recuperação rápida.",
       img: img3,
     },
     {
       id: 3,
-      name: "⚜️ Terapias Enzimáticas;",
+      name: "⚜️ TERAPIAS ENZIMÁTICAS;",
       description:
         "Tratamentos personalizados para saúde e beleza da pele.",
       img: proc3,
     },
     {
       id: 4,
-      name: "⚜️ Rejuvenescimento Facial",
+      name: "⚜️ REJUVENESCIMENTO FACIAL",
       description: "Resultados naturais e recuperação rápida.",
       img: proc4,
     },
     {
       id: 5,
-      name: "⚜️ Microagulhamento",
+      name: "⚜️ MICROAGULHAMENTO",
       description: "As microperfurações estimulam a regeneração da derme e criam canais que facilitam a permeação de ativos",
       img: img5,
     },

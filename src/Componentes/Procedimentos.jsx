@@ -12,34 +12,34 @@ function Procedimentos() {
 const resultados = [
     {
       id: 1,
-      title: "Rejuvenescimento Facial",
+      title: "REJUVENESCIMENTO FACIAL",
       description:
         "Clientes relatam pele mais firme e aparência renovada após o tratamento.",
       img: proc1,
     },
     {
       id: 2,
-      title: "Rejuvenescimento Íntimo",
+      title: "REJUVENESCIMENTO ÍNTIMO",
       description:
         "Melhora da autoestima com resultados naturais e recuperação rápida.",
       img: intimo,
     },
     {
       id: 3,
-      title: "Cicatrização Avançada",
+      title: "CICATRIZAÇÃO AVANÇADA",
       description:
         "Cicatrização avançada com resultados naturais e recuperação rápida.",
       img: img1,
     },
     {
       id: 4,
-      title: "Tratamentos para Flacidez",
+      title: "TRATAMENTOS PARA FLACIDEZ",
       description: "Resultados naturais e recuperação rápida.",
       img: img3,
     },
     {
       id: 5,
-      title: "Estrias",
+      title: "TRATAMENTOS PARA ESTRIAS",
       description:
         "Resultados naturais e recuperação rápida.",
       img: img4,
