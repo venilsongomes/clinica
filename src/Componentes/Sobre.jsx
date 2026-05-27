@@ -1,10 +1,8 @@
-import {react, useState} from "react";
 import sobre from "../assets/sobre1.svg";
 import sobre2 from "../assets/sobre3.svg";
 
-
-function  Sobre(){
-    return( 
+function Sobre() {
+  return (
     <section className="bg-[#FDFBF7] text-zinc-800 py-20 px-6 md:px-12 lg:px-24" id="about">
 
           <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
@@ -77,7 +75,7 @@ function  Sobre(){
       <li className="flex items-center gap-2">
         <span className="text-[#D4AF37]">•</span> Terapias Enzimáticas
       </li>
-      <li className="flex items-center gap-2 " className="sm:col-span-2">
+      <li className="flex items-center gap-2 sm:col-span-2">
         <span className="text-[#D4AF37]">•</span> Protocolos personalizados para saúde e beleza da pele
       </li>
     </ul>

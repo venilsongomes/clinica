@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Rodape from "./Rodape";
 import Navegacao from "./Componentes/Navegacao";
 import Procedimentos from "./Componentes/Procedimentos";
@@ -7,16 +6,13 @@ import Sobre from "./Componentes/Sobre";
 import Servicos from "./Componentes/Servicos";
 import Cursos from "./Componentes/Cursos";
 
-
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <main className="bg-[#FBF9F6] min-h-screen overflow-x-hidden">
+    <main className="bg-white min-h-screen overflow-x-hidden">
       <Navegacao />
       <Home />
       <Sobre />
-      <Cursos/>
+      <Cursos />
       <Servicos />
       <Procedimentos />
       <Rodape />

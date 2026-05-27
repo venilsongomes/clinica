@@ -1,7 +1,5 @@
-import React from "react";
-import { useState } from "react"; 
+import { useState } from "react";
 import proc1 from "../assets/proc1.svg";
-import proc2 from "../assets/proc2.svg";
 import proc3 from "../assets/proc3.svg";
 import proc4 from "../assets/proc4.svg";
 import proc5 from "../assets/proc5.svg";
@@ -61,11 +59,11 @@ const resultados = [
 
   return(
     <section
-          className="text-center p-3 scroll-mt-20 bg-[#F9F5F2]"
+          className="text-center p-3 scroll-mt-20"
           id="results"
         >
           <div className="max-w-6xl mx-auto py-10 px-4">
-            <h2 className="font-serif text-3xl md:text-4xl text-zinc-900 tracking-widefont-bold text-3xl  text-gray-800 mb-6">
+            <h2 className="font-serif text-3xl md:text-4xl text-zinc-900 tracking-wide font-bold text-gray-800 mb-6">
               Resultados
             </h2>
 
